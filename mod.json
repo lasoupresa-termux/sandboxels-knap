@@ -1,0 +1,90 @@
+[
+  {
+    "name": "stone_axehead",
+    "category": "natural",
+    "behavior": "POWDER",
+    "desc": "crude axehead for cutting trees",
+    "alias": "crude_axe_head",
+    "color": "#757575",
+    "breakInto": [
+      "gravel"
+    ],
+    "density": 23000,
+    "hardness": 0.65,
+    "insulate": false,
+    "noMix": true,
+    "burn": 1,
+    "burnInto": [
+      "magma"
+    ],
+    "burniweaponsng": false,
+    "fireElement": [
+      "fire"
+    ],
+    "reactions": {
+      "stick": {
+        "elem1": "stone_axe"
+      }
+    },
+    "fireColor": "#bf8f15",
+    "state": "solid",
+    "stateHigh": "liquid",
+    "stateHighName": "magma",
+    "temp": 22,
+    "tempHigh": 1728
+  },
+  {
+    "name": "stone_axe",
+    "category": "natural",
+    "behavior": "POWDER",
+    "alias": "crude_axe",
+    "breakInto": [
+      "gravel"
+    ],
+    "color": "#b0a586",
+    "darkText": true,
+    "density": 23030,
+    "hardness": 0.64,
+    "insulate": true,
+    "burn": 5,
+    "burnInto": [
+      "stone_axehead"
+    ],
+    "fireElement": [
+      "fire"
+    ],
+    "fireColor": "#cc9664",
+    "state": "solid",
+    "temp": 22,
+    "tempHigh": null
+  },
+  {
+    "name": "log",
+    "category": "natural",
+    "behavior": "POWDER_OLD",
+    "alias": "wood_log",
+    "color": "#786342",
+    "breakInto": [
+      "sawdust"
+    ],
+    "density": 23063,
+    "burn": 22
+  },
+  {
+    "name": "stick",
+    "category": "natural",
+    "behavior": "POWDER",
+    "breakInto": [
+      "sawdust"
+    ],
+    "color": "#694f14",
+    "density": 64,
+    "burn": 56,
+    "burnInto": [
+      "ash"
+    ],
+    "state": "solid",
+    "temp": 22,
+    "tempHigh": 400
+  }
+    ]
